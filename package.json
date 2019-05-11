@@ -1,0 +1,33 @@
+{
+  "name": "webpack-simple-serve",
+  "version": "0.1.0",
+  "description": "a fast replacement for webpack-dev-server",
+  "bin": "bin/webpack-simple-serve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martianyi/webpack-simple-serve.git"
+  },
+  "keywords": [
+    "webpack",
+    "serve",
+    "webpack-dev-server replacement"
+  ],
+  "author": "Yi Kai <beliefs111@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martianyi/webpack-simple-serve/issues"
+  },
+  "homepage": "https://github.com/martianyi/webpack-simple-serve#readme",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "npm-run-all": "^4.1.5",
+    "serve": "^11.0.0"
+  },
+  "peerDependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
+  }
+}
