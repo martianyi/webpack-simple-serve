@@ -43,3 +43,17 @@ To get help for all options:
 ```
 node_modules/.bin/webpack-simple-serve -h
 ```
+
+## simpleDevServer options in webpack.config.js
+
+```
+const path = require('path');
+
+module.exports = {
+  //...
+  simpleDevServer: {
+    contentBase: path.resolve(__dirname, 'dist'),
+    port: 3000
+  }
+};
+```

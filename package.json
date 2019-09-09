@@ -1,6 +1,6 @@
 {
   "name": "webpack-simple-serve",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "a fast replacement for webpack-dev-server",
   "bin": "bin/webpack-simple-serve.js",
   "scripts": {
@@ -23,11 +23,12 @@
   "homepage": "https://github.com/martianyi/webpack-simple-serve#readme",
   "dependencies": {
     "commander": "^2.20.0",
-    "npm-run-all": "^4.1.5",
-    "serve": "^11.0.0"
+    "serve-handler": "^6.1.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.39.3"
   },
   "peerDependencies": {
-    "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.0"
+    "webpack": "^4.39.3"
   }
 }
